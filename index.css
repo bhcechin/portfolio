@@ -1,0 +1,23 @@
+* {
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    background: linear-gradient(to bottom, hsl(270, 50%, 50%), white, white);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 3vw;
+    font-weight: normal;
+}
+
+main, div {
+    padding: 0vw 15vw;
+}
