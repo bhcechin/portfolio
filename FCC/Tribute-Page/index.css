@@ -48,13 +48,13 @@ a {
 #flower-left {
     width: 100%;
     max-width: 100%;
-    margin-left: -40px;
+    margin-left: -2vw;
 }
 
 #flower-right {
     width: 100%;
     max-width: 100%;
-    margin-left: 40px;
+    margin-left: 2vw;
     transform: rotatey(180deg);
 }
 

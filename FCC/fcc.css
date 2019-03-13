@@ -1,0 +1,71 @@
+/*Imports styles for the whole project*/
+@import url("../project.css");
+
+html {
+    height: auto;
+    background-image: linear-gradient(to top, lightgoldenrodyellow, white);
+}
+
+div {
+    margin: auto;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 900; /*300,300i,400,400i,700,900*/
+    text-transform: none;
+    text-shadow: 3px 2px gold;
+    padding: 3vw;
+    margin: 0vw -0.6vw 0vw -0.6vw;
+    background-image: linear-gradient(to bottom right, darkgreen, forestgreen, forestgreen, darkgreen);
+}
+
+.overlay-div { 
+    position: relative;
+    width: 60%;
+}
+
+.overlay-div .hover-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-div .hover-div-text {
+    color: whitesmoke;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 4vw;
+    text-decoration: none;
+}
+
+.overlay-div .hover-div {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.overlay-div:hover .hover-div {
+    opacity: 1;
+}
+
+.overlay-div .normal-div {
+    transition: .5s ease;
+}
+
+.overlay-div:hover .normal-div {
+    opacity: 0;
+}
+
+.overlay-div .hover-div {
+    background-color: rgba(0,0,0,0.9);
+}

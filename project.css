@@ -1,0 +1,101 @@
+* {
+    font-family: 'Merriweather', serif;
+}
+
+html {
+    height: 100%;
+    background-image: linear-gradient(to top, lightgoldenrodyellow, white, white);
+}
+
+main{
+    margin: 0vw 2vw;
+    padding: 0vw 1vw;
+    border: 0.5vw double transparent; /*width style color*/
+}
+
+div {
+    margin: 0vw 2vw;
+}
+
+header {
+    background-image: linear-gradient(to bottom right, gold, goldenrod);
+    margin: -0.6vw -0.6vw 0vw -0.6vw;
+    padding: 1vw;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 900; /*300,300i,400,400i,700,900*/
+    text-transform: uppercase;
+    text-shadow: 3px 2px gold;
+    padding: 3vw;
+    margin: 0vw -0.6vw 0vw -0.6vw;
+    background-image: linear-gradient(to bottom right, rebeccapurple, mediumpurple, mediumpurple, rebeccapurple);
+}
+
+h2 {
+    color: gold;
+    font-size: 3vw;
+    font-weight: normal;
+    padding: 1.5vw;
+    line-height: 0.5;
+    border: 0.5vw double white; /*width style color*/
+    background: linear-gradient(to bottom right, rebeccapurple, mediumpurple);
+    margin: 1vw 0vw;
+}
+
+h3 {
+    color: rebeccapurple;
+    font-size: 2.5vw;
+    padding: 0vw 2vw;
+    margin: 1vw auto;
+}
+
+p {
+    font-size: 1.2vw;
+    text-align: justify;
+    padding: 0vw 2vw;
+}
+
+header a {
+    color: mediumpurple;
+    text-decoration: none;
+    padding: 1vw 1vw;
+}
+
+header a:hover {
+    color: white;
+}
+
+header a:visited {
+    color: mediumpurple;
+}
+
+header a:visited:hover {
+    color: white;
+}
+
+a {
+    color: mediumpurple;
+}
+
+a:visited {
+    color: rebeccapurple;
+}
+
+.grid {
+    display: grid;
+}
+
+#home {
+    color: rebeccapurple;
+    margin: 0vw 5vw 0vw 2vw;
+    font-weight: 900;
+}
