@@ -2,6 +2,11 @@
     font-family: 'Merriweather', serif;
 }
 
+body {
+    margin: 0;
+    padding 0;
+}
+
 html {
     height: 100%;
     background-image: linear-gradient(to top, lightgoldenrodyellow, white, white);
@@ -36,7 +41,7 @@ h1 {
     text-transform: uppercase;
     text-shadow: 3px 2px gold;
     padding: 3vw;
-    margin: 0vw -0.6vw 0vw -0.6vw;
+    margin: auto;
     background-image: linear-gradient(to bottom right, rebeccapurple, mediumpurple, mediumpurple, rebeccapurple);
 }
 
