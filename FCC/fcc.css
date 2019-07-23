@@ -1,13 +1,8 @@
 /*Imports styles for the whole project*/
 @import url("../project.css");
 
-html {
-    height: auto;
+body {
     background-image: linear-gradient(to top, lightgoldenrodyellow, white);
-}
-
-div {
-    margin: auto;
 }
 
 h1 {
@@ -18,7 +13,6 @@ h1 {
     text-transform: none;
     text-shadow: 3px 2px gold;
     padding: 3vw;
-    margin: 0vw -0.6vw 0vw -0.6vw;
     background-image: linear-gradient(to bottom right, darkgreen, forestgreen, forestgreen, darkgreen);
 }
 
