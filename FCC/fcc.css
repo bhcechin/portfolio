@@ -1,8 +1,7 @@
 /*Imports styles for the whole project*/
 @import url("../project.css");
 
-html {
-    height: auto;
+body {
     background-image: linear-gradient(to top, lightgoldenrodyellow, white);
 }
 
