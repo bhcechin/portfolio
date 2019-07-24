@@ -1,2 +1,16 @@
 /*Imports styles for the whole project*/
 @import url("project.css");
+
+img {
+    max-width: 20%;
+    height: auto;
+    float: left;
+    border: 1vw solid mediumpurple;
+    margin: 1vw 2vw;
+}
+
+main {
+    padding: 2vw 2vw;
+    margin: 0;
+    border: 1px solid transparent;
+}
