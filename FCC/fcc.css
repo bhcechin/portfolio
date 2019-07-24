@@ -1,10 +1,6 @@
 /*Imports styles for the whole project*/
 @import url("../project.css");
 
-body {
-    background-image: linear-gradient(to top, lightgoldenrodyellow, white);
-}
-
 h1 {
     color: whitesmoke;
     text-align: center;
