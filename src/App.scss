@@ -1,0 +1,223 @@
+$primary-dark: #021727;
+$primary-light: #fbceb1;
+$secondary-dark: #124e78;
+$secondary-light: #fffbfe;
+
+$blue-accent: #50c5e2;
+$pink-accent: #f78d94;
+
+.app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: $pink-accent;
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+header {
+  background-color: $primary-dark;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  position: fixed;
+  width: 100%;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+      display: flex;
+      list-style-type: none;
+      
+      align-items: center;
+      justify-content: center;
+      vertical-align: middle;
+
+      li {
+        padding: 0.6em;
+
+        .link {
+          color: #F78D94;
+          display: flex;
+          padding: 0 10px;
+        }
+
+        &.code {
+          color: white;
+          background-color: $secondary-dark;
+          padding: 4px 16px;
+          margin: 0 8px;
+          border-radius: 4px;
+
+          &:hover {
+            background-color: rgba(0, 0, 0, 0.5) ;
+          }
+        }
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.25);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.home {
+  height: 100%;
+  visibility: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex: 1 1 auto;
+
+  .info {
+    padding: 8px 0;
+    z-index: 2;
+    margin-top: 16px;
+
+    .icon {
+      margin-top: 12px;
+      font-size: 9vw;
+      padding: 4px;
+  
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.25);
+      }
+  
+      @media screen and (min-width: 414px) {
+        font-size: 7vw;
+      }
+  
+      @media screen and (min-width: 768px) {
+        font-size: 5vw;
+      }
+  
+      @media screen and (min-width: 1080px) {
+        font-size: 4vw;
+      }
+  
+      @media screen and (min-width: 1200px) {
+        font-size: 3vw;
+      }
+    }
+  }
+}
+
+.trabalhos {
+  height: 100%;
+  visibility: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex: 1 1 auto;
+
+  .icon {
+    margin: 0 8px;
+  }
+}
+
+.Circle {
+  width: 1.75em;
+  height: 1.75em;
+  border: 1px solid white;
+  border-radius: 50%;
+
+  @media screen and (min-width: 1080px ) {
+    width: 1.25em;
+    height: 1.25em;
+  }
+}
+
+.pattern {
+  position: absolute;
+  z-index: 1;
+  width: 75%;
+  height: 75%;
+
+  svg {
+    top: 50%;
+    height: 100%;
+    width: 100%;
+
+    #first {
+      fill: none;
+      stroke-width: 1;
+    }
+
+    #second {
+      fill: none;
+      stroke-width: 1;
+    }
+
+    #third {
+      fill: none;
+      stroke-width: 1;
+      stroke: $blue-accent;
+    }
+  }
+}
+
+.PrimaryDark {
+  background-color: $primary-dark;
+  color: $secondary-light;
+
+  .info {
+    background-color: $primary-dark;
+  }
+
+  #first {
+    stroke: $primary-light;
+  }
+
+  #second {
+    stroke: $secondary-dark;
+  }
+}
+
+.PrimaryLight {
+  background-color: $primary-light;
+  color: $secondary-dark;
+
+  #first {
+    stroke: $primary-dark;
+  }
+
+  #second {
+    stroke: $secondary-light;
+  }
+}
+
+.SecondaryLight {
+  background-color: $secondary-light;
+  color: $primary-dark;
+
+  #first {
+    stroke: $secondary-dark;
+  }
+
+  #second {
+    stroke: $primary-light;
+  }
+}
+
+.SecondaryDark {
+  background-color: $secondary-dark;
+  color: $secondary-light;
+
+  #first {
+    stroke: $primary-light;
+  }
+
+  #second {
+    stroke: $primary-dark;
+  }
+}
