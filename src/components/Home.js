@@ -8,7 +8,8 @@ const Home = (props) => {
         <div className={`home ${selectedColor}`}>
             <div className='info'>
                 <h1>Bhárbara Cechin</h1>
-                <p>Full Stack Developer at <a href='https://www.blink.com.br/' target='_blank' rel='noreferrer'>Blynk Systems</a></p>
+                {/* <p>Full Stack Developer at <a href='https://www.blink.com.br/' target='_blank' rel='noreferrer'>Blynk Systems</a></p> */}
+                <p>Desenvolvedora Full Stack em <a href='https://www.blink.com.br/' target='_blank' rel='noreferrer'>Blynk Systems</a></p>
                 <a href='https://github.com/bhcechin/' target='_blank' rel='noreferrer' ><FaGithub className='icon' /></a>
                 <a href='https://www.linkedin.com/in/bhcechin/' target='_blank' rel='noreferrer' ><FaLinkedin className='icon' /></a>
             </div>

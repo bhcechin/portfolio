@@ -26,7 +26,7 @@ const NavBar = () => {
         <nav>
           <ul>
             <li>
-              <BhLink to='/' description='Home' iconName='FaHome' />
+              <BhLink to='/' description='Início' iconName='FaHome' />
             </li>
             <li>
               <BhLink
