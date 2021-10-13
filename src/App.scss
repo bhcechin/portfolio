@@ -6,6 +6,21 @@ $secondary-light: #fffbfe;
 $blue-accent: #50c5e2;
 $pink-accent: #f78d94;
 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 8s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .app {
   height: 100%;
   display: flex;
@@ -82,6 +97,7 @@ header {
     padding: 8px 0;
     z-index: 2;
     margin-top: 16px;
+    border-radius: 50%;
 
     .icon {
       margin-top: 12px;
@@ -206,8 +222,8 @@ header {
 .pattern {
   position: absolute;
   z-index: 1;
-  width: 75%;
-  height: 75%;
+  width: 70vmin;
+  height: 70vmin;
 
   svg {
     top: 50%;
@@ -253,6 +269,10 @@ header {
   background-color: $primary-light;
   color: $secondary-dark;
 
+  .info {
+    background-color: $primary-light;
+  }
+
   #first {
     stroke: $primary-dark;
   }
@@ -266,6 +286,10 @@ header {
   background-color: $secondary-light;
   color: $primary-dark;
 
+  .info {
+    background-color: $secondary-light;
+  }
+
   #first {
     stroke: $secondary-dark;
   }
@@ -278,6 +302,10 @@ header {
 .SecondaryDark {
   background-color: $secondary-dark;
   color: $secondary-light;
+
+  .info {
+    background-color: $secondary-dark;
+  }
 
   #first {
     stroke: $primary-light;
