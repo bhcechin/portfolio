@@ -1,5 +1,5 @@
 import '../App.scss';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaReact } from 'react-icons/fa';
 
 const Home = (props) => {
     const { selectedColor } = props;
@@ -37,7 +37,8 @@ const Home = (props) => {
             <div className='info'>
                 <h1>Bhárbara Cechin</h1>
                 {/* <p>Full Stack Developer at <a href='https://www.blink.com.br/' target='_blank' rel='noreferrer'>Blynk Systems</a></p> */}
-                <p>Desenvolvedora Full Stack em <br/> <a href='https://www.blink.com.br/' target='_blank' rel='noreferrer'>Blynk Systems</a></p>
+                <p><span>Front End Developer</span></p>
+                <p>React &amp; Flutter</p>
                 <a href='https://github.com/bhcechin/' target='_blank' rel='noreferrer' ><FaGithub className='icon' /></a>
                 <a href='https://www.linkedin.com/in/bhcechin/' target='_blank' rel='noreferrer' ><FaLinkedin className='icon' /></a>
             </div>

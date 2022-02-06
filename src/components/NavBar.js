@@ -26,6 +26,9 @@ const NavBar = () => {
         <nav>
           <ul>
             <li>
+              <span style={{color: 'white'}}>Bhárbara Cechin</span>
+            </li>
+            <li>
               <BhLink to='/' description='Início' iconName='FaHome' />
             </li>
             <li>
