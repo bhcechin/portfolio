@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.10dfe14c.chunk.css",
-    "main.js": "/portfolio/static/js/main.9eb0cad8.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9eb0cad8.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.c8563d0b.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.c8563d0b.js.map",
-    "static/js/2.afc9af5b.chunk.js": "/portfolio/static/js/2.afc9af5b.chunk.js",
-    "static/js/2.afc9af5b.chunk.js.map": "/portfolio/static/js/2.afc9af5b.chunk.js.map",
-    "static/js/3.fd30719e.chunk.js": "/portfolio/static/js/3.fd30719e.chunk.js",
-    "static/js/3.fd30719e.chunk.js.map": "/portfolio/static/js/3.fd30719e.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.cec88f84.chunk.css",
+    "main.js": "/portfolio/static/js/main.fd2dedf2.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fd2dedf2.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.8217cc83.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8217cc83.js.map",
+    "static/js/2.7cd794ac.chunk.js": "/portfolio/static/js/2.7cd794ac.chunk.js",
+    "static/js/2.7cd794ac.chunk.js.map": "/portfolio/static/js/2.7cd794ac.chunk.js.map",
+    "static/js/3.53ba1df7.chunk.js": "/portfolio/static/js/3.53ba1df7.chunk.js",
+    "static/js/3.53ba1df7.chunk.js.map": "/portfolio/static/js/3.53ba1df7.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.10dfe14c.chunk.css.map": "/portfolio/static/css/main.10dfe14c.chunk.css.map",
-    "static/js/2.afc9af5b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.afc9af5b.chunk.js.LICENSE.txt",
+    "static/css/main.cec88f84.chunk.css.map": "/portfolio/static/css/main.cec88f84.chunk.css.map",
+    "static/js/2.7cd794ac.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7cd794ac.chunk.js.LICENSE.txt",
     "static/media/blink_logo.bbeb084a.png": "/portfolio/static/media/blink_logo.bbeb084a.png",
     "static/media/ss_shimano.9042cfea.png": "/portfolio/static/media/ss_shimano.9042cfea.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c8563d0b.js",
-    "static/js/2.afc9af5b.chunk.js",
-    "static/css/main.10dfe14c.chunk.css",
-    "static/js/main.9eb0cad8.chunk.js"
+    "static/js/runtime-main.8217cc83.js",
+    "static/js/2.7cd794ac.chunk.js",
+    "static/css/main.cec88f84.chunk.css",
+    "static/js/main.fd2dedf2.chunk.js"
   ]
 }
